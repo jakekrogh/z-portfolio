@@ -16,14 +16,14 @@ export const projects: Project[] = [
     title: "Media Performance Modeling for Nordic Clients",
     tag: "Applied Data Science",
     summary:
-      "Built data-to-insight pipelines and analytical models used to support strategic decisions for major Nordic brands.",
+      "Led client-facing analytics and modeling work to support strategic media decisions for major Nordic organizations.",
     problem:
       "Large organizations needed clearer, data-driven understanding of media and business performance across channels.",
     build:
-      "Developed and operationalized modeling workflows, then translated technical outputs into actionable business recommendations.",
+      "Built and operationalized modeling workflows, and translated technical findings into clear recommendations for both technical teams and business stakeholders.",
     stack: ["Python", "SQL", "Analytics", "Modeling"],
     result:
-      "Improved clarity and speed of client decision-making through model-backed insights.",
+      "Enabled faster, more confident client decisions by making performance trade-offs and opportunities transparent.",
     links: [
       { label: "Case Study", href: "#" },
       { label: "Repository", href: "#" },
@@ -34,14 +34,14 @@ export const projects: Project[] = [
     title: "Internal Data Science Workflow Platform",
     tag: "MLOps / Tooling",
     summary:
-      "Built an internal web app around core data science tools to reduce repetitive work and improve team reliability.",
+      "Built an internal data science platform that improved delivery speed and consistency on client engagements.",
     problem:
       "Core workflows were fragmented and manual, slowing experimentation and reuse.",
     build:
       "Designed and shipped internal software that standardized key steps in experimentation and delivery.",
     stack: ["Python", "TypeScript", "Web App", "APIs"],
     result:
-      "Higher team efficiency and smoother handoff from analysis to production usage.",
+      "Reduced operational friction in project delivery and improved handoff quality from analysis to implementation.",
     links: [
       { label: "Case Study", href: "#" },
       { label: "Repository", href: "#" },
@@ -52,7 +52,7 @@ export const projects: Project[] = [
     title: "AI Agents for Unstructured Data Parsing",
     tag: "AI Engineering",
     summary:
-      "Introduced AI agents to parse and structure unstructured datasets for downstream analysis.",
+      "Introduced AI agents that converted unstructured client data into structured inputs for analysis and reporting.",
     problem:
       "Manual structuring of messy input data was time-consuming and difficult to scale.",
     build:
