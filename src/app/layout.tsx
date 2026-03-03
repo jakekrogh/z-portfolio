@@ -39,7 +39,7 @@ export default function RootLayout({
             </Link>
             <nav className="flex items-center gap-5 text-sm text-zinc-200">
               <Link href="/projects" className="transition hover:text-white">
-                Projects
+                Experience
               </Link>
               <Link href="/about" className="transition hover:text-white">
                 About
