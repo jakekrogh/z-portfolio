@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Jakob Krogh Petersen | Portfolio",
+  title: "Jakob Krogh | Portfolio",
   description: "Portfolio site with selected projects and background.",
 };
 
@@ -29,7 +29,7 @@ export default function RootLayout({
         <div className="mx-auto flex min-h-screen w-full max-w-5xl flex-col px-6 py-8 sm:px-10">
           <header className="mb-12 flex items-center justify-between">
             <Link href="/" className="text-lg font-semibold tracking-tight">
-              Jakob K. Petersen
+              Jakob Krogh
             </Link>
             <nav className="flex items-center gap-6 text-sm text-zinc-300">
               <Link href="/projects" className="transition hover:text-white">

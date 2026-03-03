@@ -3,7 +3,7 @@ export default function AboutPage() {
     <div className="space-y-8">
       <section className="space-y-3">
         <p className="text-sm uppercase tracking-[0.2em] text-zinc-400">About</p>
-        <h1 className="text-4xl font-semibold tracking-tight">Jakob Krogh Petersen</h1>
+        <h1 className="text-4xl font-semibold tracking-tight">Jakob Krogh</h1>
         <p className="max-w-3xl text-zinc-300">
           Data Scientist / AI Engineer with a strong consulting focus. I partner with large Nordic clients to turn complex media and business data into decision-ready insights, then build the software and ML workflows needed to operationalize those insights.
         </p>
