@@ -12,45 +12,75 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    slug: "ml-workflow-app",
-    title: "Internal ML Workflow App",
-    tag: "MLOps",
-    summary: "Built an internal app to streamline experimentation, reuse, and deployment for data science teams.",
-    problem: "Manual and fragmented workflows slowed down model development and made collaboration harder.",
-    build: "Designed and developed a full-stack internal platform around core data science workflows.",
-    stack: ["Python", "TypeScript", "React", "FastAPI", "Docker"],
-    result: "Improved team throughput and reduced time spent on repetitive setup work.",
+    slug: "wpp-ml-insights",
+    title: "Media Performance Modeling for Nordic Clients",
+    tag: "Applied Data Science",
+    summary:
+      "Built data-to-insight pipelines and analytical models used to support strategic decisions for major Nordic brands.",
+    problem:
+      "Large organizations needed clearer, data-driven understanding of media and business performance across channels.",
+    build:
+      "Developed and operationalized modeling workflows, then translated technical outputs into actionable business recommendations.",
+    stack: ["Python", "SQL", "Analytics", "Modeling"],
+    result:
+      "Improved clarity and speed of client decision-making through model-backed insights.",
     links: [
       { label: "Case Study", href: "#" },
       { label: "Repository", href: "#" },
     ],
   },
   {
-    slug: "unstructured-data-agent",
-    title: "Unstructured Data Parsing Agent",
-    tag: "Applied AI",
-    summary: "Implemented an AI-driven agent to parse and structure unstructured data for downstream analytics.",
-    problem: "Teams spent significant manual effort converting messy inputs into structured formats.",
-    build: "Created an agent-based parsing pipeline with validation and standardized output schemas.",
-    stack: ["LLMs", "Python", "Pydantic", "APIs"],
-    result: "Reduced manual processing time and improved scalability across repeated tasks.",
+    slug: "internal-ds-platform",
+    title: "Internal Data Science Workflow Platform",
+    tag: "MLOps / Tooling",
+    summary:
+      "Built an internal web app around core data science tools to reduce repetitive work and improve team reliability.",
+    problem:
+      "Core workflows were fragmented and manual, slowing experimentation and reuse.",
+    build:
+      "Designed and shipped internal software that standardized key steps in experimentation and delivery.",
+    stack: ["Python", "TypeScript", "Web App", "APIs"],
+    result:
+      "Higher team efficiency and smoother handoff from analysis to production usage.",
     links: [
       { label: "Case Study", href: "#" },
       { label: "Repository", href: "#" },
     ],
   },
   {
-    slug: "multimodal-mri-thesis",
-    title: "Multimodal MRI + Text Thesis",
+    slug: "ai-agent-unstructured-data",
+    title: "AI Agents for Unstructured Data Parsing",
+    tag: "AI Engineering",
+    summary:
+      "Introduced AI agents to parse and structure unstructured datasets for downstream analysis.",
+    problem:
+      "Manual structuring of messy input data was time-consuming and difficult to scale.",
+    build:
+      "Implemented an agent-based parsing pipeline with schema-oriented outputs and reusable processing logic.",
+    stack: ["LLMs", "Python", "Pydantic", "Data Pipelines"],
+    result:
+      "Reduced manual processing effort and made repeated workflows more scalable.",
+    links: [
+      { label: "Case Study", href: "#" },
+      { label: "Repository", href: "#" },
+    ],
+  },
+  {
+    slug: "msc-thesis-3d-mri",
+    title: "MSc Thesis: 3D MRI + CLIP-style Methodology",
     tag: "Research",
-    summary: "Master’s thesis on contrastive pre-training using 3D MRI scans and clinical text to localize brain tumors.",
-    problem: "Needed stronger representations across imaging and clinical language for localization performance.",
-    build: "Built non-trivial data pipelines and trained/evaluated state-of-the-art multimodal models.",
-    stack: ["PyTorch", "Medical Imaging", "Contrastive Learning", "NLP"],
-    result: "Accepted as scientific article at ISBI 2025 (Houston).",
+    summary:
+      "Researched state-of-the-art computer vision on 3D MRI with contrastive / CLIP-inspired methods in a medical setting.",
+    problem:
+      "Medical imaging workflows need stronger representation learning for robust tumor-related modeling.",
+    build:
+      "Built training and evaluation pipelines for multimodal/3D experiments, including dataset preparation and model iteration.",
+    stack: ["PyTorch", "Computer Vision", "Medical AI", "Representation Learning"],
+    result:
+      "Produced a strong thesis outcome and practical research foundation in applied medical AI.",
     links: [
-      { label: "Paper", href: "#" },
-      { label: "Slides", href: "#" },
+      { label: "Thesis", href: "#" },
+      { label: "Paper/Slides", href: "#" },
     ],
   },
 ];
