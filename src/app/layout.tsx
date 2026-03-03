@@ -41,8 +41,8 @@ export default function RootLayout({
               <Link href="/experience" className="transition hover:text-white">
                 Experience
               </Link>
-              <Link href="/interactive" className="transition hover:text-white">
-                Interactive
+              <Link href="/projects" className="transition hover:text-white">
+                Projects
               </Link>
               <Link href="/about" className="transition hover:text-white">
                 About
