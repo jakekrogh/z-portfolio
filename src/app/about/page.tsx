@@ -51,6 +51,13 @@ export default function AboutPage() {
           Machine Learning • Computer Vision • Signal Processing • Image Analysis • Applied AI • Software Development
         </p>
       </section>
+
+      <section className="rounded-2xl border border-zinc-800 bg-zinc-900/40 p-6">
+        <h2 className="mb-3 text-xl font-semibold">Contact</h2>
+        <p className="text-zinc-300">Copenhagen, Denmark</p>
+        <p className="text-zinc-300">+45 51 33 91 09</p>
+        <p className="text-zinc-300">jakob231198@gmail.com</p>
+      </section>
     </div>
   );
 }
