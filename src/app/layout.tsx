@@ -38,8 +38,11 @@ export default function RootLayout({
               Jakob Krogh
             </Link>
             <nav className="flex items-center gap-5 text-sm text-zinc-200">
-              <Link href="/projects" className="transition hover:text-white">
+              <Link href="/experience" className="transition hover:text-white">
                 Experience
+              </Link>
+              <Link href="/interactive" className="transition hover:text-white">
+                Interactive
               </Link>
               <Link href="/about" className="transition hover:text-white">
                 About

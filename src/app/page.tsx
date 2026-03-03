@@ -15,7 +15,7 @@ export default function Home() {
           I work at the intersection of machine learning, analytics, and software engineering—turning advanced methods into tools that create measurable business impact.
         </p>
         <div className="flex gap-3">
-          <Link href="/projects" className="glass-pill px-5 py-2 text-sm font-medium text-white transition hover:bg-white/20">
+          <Link href="/experience" className="glass-pill px-5 py-2 text-sm font-medium text-white transition hover:bg-white/20">
             View Experience
           </Link>
           <Link href="/about" className="glass-pill px-5 py-2 text-sm font-medium text-white/90 transition hover:bg-white/20">
