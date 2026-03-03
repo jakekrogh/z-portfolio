@@ -13,7 +13,7 @@ export default function ProjectsPage() {
 
       <div className="space-y-5">
         {projects.map((project) => (
-          <article key={project.slug} className="rounded-2xl border border-zinc-800 bg-zinc-900/40 p-6">
+          <article key={project.slug} className="glass-card p-6">
             <p className="text-xs uppercase tracking-wide text-zinc-400">{project.tag}</p>
             <h2 className="mt-1 text-2xl font-semibold">{project.title}</h2>
             <p className="mt-3 text-zinc-300">{project.summary}</p>
@@ -35,7 +35,7 @@ export default function ProjectsPage() {
 
             <div className="mt-4 flex flex-wrap gap-2">
               {project.stack.map((tech) => (
-                <span key={tech} className="rounded-full border border-zinc-700 px-3 py-1 text-xs text-zinc-300">
+                <span key={tech} className="glass-pill px-3 py-1 text-xs text-zinc-100">
                   {tech}
                 </span>
               ))}

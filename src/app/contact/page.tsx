@@ -9,7 +9,7 @@ export default function ContactPage() {
         </p>
       </section>
 
-      <section className="rounded-2xl border border-zinc-800 bg-zinc-900/40 p-6">
+      <section className="glass-card p-6">
         <div className="space-y-3 text-zinc-300">
           <p>
             <span className="font-medium text-white">Phone:</span> +45 51 33 91 09
